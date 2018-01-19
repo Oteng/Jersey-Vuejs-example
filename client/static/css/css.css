@@ -1,0 +1,92 @@
+.sort{
+  background: transparent;
+}
+
+.color-orange{
+  color: #ff8219 !important;
+}
+.color-orange-bg{
+  background-color: #ff8219 !important;
+  color: white !important;
+}
+.color-orange-bg-hover:hover{
+  background-color: #e66916 !important;
+  color: white !important;
+  border-color: #aa4c0d !important;
+}
+.color-orange-border{
+  border-color: #ff8219 !important;
+}
+.color-orange-nav > a{
+  color: #ff8219 !important;
+}
+.color-orange-nav > a:hover{
+  color: #ff0505 !important;
+}
+.number{
+  background: #08d0fb;
+  color: white;
+  border-radius: 50px;
+  padding: 20px 25px;
+  margin-right: 10px;
+}
+.parent-number{
+  margin: 25px 0;
+}
+
+.input-group-local:first-child{
+  border: 1px solid #c2cfd6;
+}
+
+.edit-icon {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, .8);
+  color: rgba(0, 0, 0, .4);
+  padding: 5px 5px 10px 20px;
+  border-radius: 0 0 0 50px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.edit-icon:hover{
+  color: #000000;
+}
+
+.line-height-2{
+  line-height: 2;
+}
+.align-right{
+  text-align: right;
+}
+
+.table-body{
+  position: relative;
+  overflow: auto;
+  height: 400px;
+  border: none;
+}
+.table-head{
+  box-shadow: 0 10px 4px -10px #000000;
+  border-top: none;
+  border-bottom: 1px solid #999999;
+  background-color: white;
+}
+.table-footer{
+  box-shadow: 0 -10px 4px -10px #000000;
+  border-top: none;
+  border-bottom: 1px solid #999999;
+  background-color: white;
+}
+.clickable{
+  cursor: pointer;
+}
+
+.clickable:hover{
+  background-color: #ff8219 !important;
+}
+
+.sidebar .nav-link:hover, .sidebar .navbar .dropdown-toggle:hover, .navbar .sidebar .dropdown-toggle:hover {
+  background: #ff8219 !important;
+}
