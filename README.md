@@ -6,7 +6,7 @@ Thing you will need
     It is better to use an IDE. the IDE of choice is Intellij
 2. PostgresSQL
 3. Nodejs and NPM
-4. Intall Tomcat
+4. Install Tomcat
 
 ### Installation
 1. *Setup your database*
