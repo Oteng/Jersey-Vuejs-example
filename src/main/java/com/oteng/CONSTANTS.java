@@ -7,7 +7,7 @@ import javax.ws.rs.core.HttpHeaders;
 public class CONSTANTS {
     public static String DATAABSE = "service";
     public static String DATABASEUSERNAME = "postgres";
-    public static String DATABASEPASS = "0209450219";
+    public static String DATABASEPASS = "########";
     public static String HOST = "localhost";
     public static String PORT = "5432";
     public static String DRIVER = "jdbc:postgresql://";
