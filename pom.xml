@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
     <version>2.0</version>
     <name>jersey-vue-sample</name>
-    
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -35,12 +35,16 @@
             <artifactId>json</artifactId>
             <version>20231013</version>
         </dependency>
-        <!-- uncomment this to get JSON support:
-         <dependency>
-            <groupId>org.glassfish.jersey.media</groupId>
-            <artifactId>jersey-media-json-binding</artifactId>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.20.0</version>
         </dependency>
-        -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.8</version>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -56,6 +60,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.14.0</version>
                 <inherited>true</inherited>
+                <configuration>
+                    <release>22</release>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
