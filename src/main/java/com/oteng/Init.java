@@ -8,11 +8,11 @@ import java.util.List;
 
 public class Init {
     /**
-     * This classes is run in the main method of the server and is run once.
-     * It does initialization function like checking to see if the migration table exist and
-     * the current status ot the models in the table
-     * it any thing has change it update it appropriately
+     * This class is intended for development and testing purposes only.
+     * Do NOT invoke this in a production environment, as it will try to perform database migration, which will
+     * slow down the startup time of your server.
      */
+
     public Init() throws IllegalAccessException, SQLException, InstantiationException {
         this.init();
     }
@@ -21,8 +21,8 @@ public class Init {
         //Read migration table to verify every thing is ok
         List<Class<?>> classes = ModelFinder.find("com.oteng.Model");
 
-        for(Class ass : classes){
-            Models c = (Models)ass.newInstance();
+        for (Class ass : classes) {
+            Models c = (Models) ass.newInstance();
             c.create();
         }
 
