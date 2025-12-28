@@ -3,8 +3,8 @@ package com.oteng.Modules;
 import com.oteng.Model.TblServiceReq;
 import org.json.JSONObject;
 
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.MediaType;
 import java.sql.SQLException;
 import java.util.Calendar;
 
